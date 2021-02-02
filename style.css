@@ -1,0 +1,202 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --primaryColor : rgb(91, 111, 134);
+    --seconderyColor: white;
+    --UniqueColor : #fab65d ;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 10px auto;
+    padding: 10px auto;
+}
+ 
+#landingBody {
+     margin: 0px;
+     padding: 0px;
+     width: 100vw;
+     height: 100vh;
+     background-image: url('https://images.unsplash.com/photo-1552053091-0800c625673c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVsYXZpdnxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+     text-align: center;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+#landingBody h1   {
+    margin-top: 50px;
+    font-size: 3em;
+}
+
+#landingBody p {
+    margin-top: 50px;
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+#landingBody a button {
+    background-color: transparent;
+    color: black;
+}
+
+#landingBody a button:hover {
+    background-color: black;
+    color: var(--seconderyColor);
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 2em;
+        margin: 5px auto;
+    }
+
+    p {
+        font-size: 1em;   
+    }
+}
+
+.navbar {
+    list-style: none;
+    font-family:fantasy;
+    text-decoration: none;
+    width: 100%;
+    height: 5%;
+    font-size: large;
+    margin: 0;
+    padding: 0;
+    background-color: var(--UniqueColor);
+            }
+
+.navbar li {
+    float: left;
+    }    
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 10px;
+}
+.navbar li a:hover {
+    background-color: var(--primaryColor);
+    color: var(--seconderyColor);
+}
+
+header {
+    width: 100%;
+    height: 20%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px auto;
+    font-size: large;
+    background-color:var(--primaryColor) ;
+    font-family: 'Oswald', sans-serif;
+    color: var(--seconderyColor);
+
+}
+
+section {
+    width: 100%;
+    height: 60%;
+    margin: 15px auto;
+}
+main {
+    width: 70%;
+    height: 100%;
+    float: left;
+    background-image: url('https://images.unsplash.com/photo-1552053091-0800c625673c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8dGVsYXZpdnxlbnwwfDB8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#picture {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    float: left;
+   
+}
+#about {
+    position: relative;
+    color: var(--seconderyColor);
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    text-shadow: 1px  1px black;
+    float: right;
+    top: 30px;
+    left: -30px;
+  }
+
+  .side{
+      width: 28%;
+      height: 100%;
+      float: right;
+      background-color: var(--UniqueColor);
+      font-family: 'Oswald', sans-serif;
+      font-size: larger;    
+  }
+
+  .sideImage {
+      width: 100%;
+      height: 65%;
+      background-image: url('https://www.satellitetoday.com/wp-content/uploads/2019/06/Screen-Shot-2019-06-13-at-5.50.12-PM.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+  }
+
+ #blog {
+     margin: 5px auto;
+     padding: 5px auto;
+     text-align: center;
+ }
+  button {
+      width: 200px;
+      height: 40px;
+      border-radius: 5px;
+      background-color:  var(--primaryColor);
+      color: var(--seconderyColor);
+      font-family: serif;
+      font-size: large;
+ }
+ button:hover {
+     background-color:  rgb(21, 47, 77);
+ }
+
+ h3 {
+     padding: 10px;
+ }
+
+ .SocialMedia {
+     display: inline;
+     padding: 10px;
+ }
+
+ .SocialMedia a:hover {
+    color: var(--seconderyColor);
+ }
+  
+
+
+footer {
+    width: 100%;
+    height: 15%;
+    text-align: center;
+    background-color:  var(--primaryColor);
+    color: var(--seconderyColor);
+    font-size: large;
+    font-family: 'Oswald', sans-serif;   
+                         
+}
+
+
